@@ -12,7 +12,6 @@ ReactDOM.render(
         <Route path='news' element={<div>This is the News Route</div>} />
         <Route path='motivation' element={<div> THis is the Motivation Route</div>} />
       </Route>
-
     </Routes>
       
   </BrowserRouter>,
