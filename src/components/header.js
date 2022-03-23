@@ -30,7 +30,7 @@ const Header = () => {
       />
       
       
-      <Nav expanded={navExpanded} close={setNavExpanded} isOpen={navExpanded} toggleNav={toggleNav} />
+      <Nav expanded={navExpanded} toggleNav={toggleNav} />
     </header>
   );
 }

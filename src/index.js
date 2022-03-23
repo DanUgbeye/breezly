@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter>
+  
     <Routes>
       <Route  path="/" element={ <App /> } >
         <Route index element={<div>This is the Index Route</div>} />
