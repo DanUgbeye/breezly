@@ -12,8 +12,8 @@ const Header = () => {
   }
 
   return (
-    <header className=" flex justify-center h-12 mb-6 text-green-600 border-b-2 border-solid border-green-600 md:flex-col md:justify-start md:h-full md:relative  md:bg-green-600 md:text-white " >
-      <h2 className=" text-2xl text-center mt-0 self-center md:mt-4  " >Breezly</h2>
+    <header className=" flex justify-center h-12 mb-6 z-50 text-green-600 border-b-2 border-solid border-green-600 md:flex-col md:justify-start md:h-full md:relative  md:bg-green-600 md:text-white " >
+      <h2 className=" text-2xl font-semibold font-[sans] text-center mt-0 self-center md:mt-4  " >Breezly</h2>
       
       <img 
         src={closePic} 
@@ -28,7 +28,6 @@ const Header = () => {
         className={" cursor-pointer h-6 w-7 absolute mr-4 mt-3 top-0 right-0 md:hidden transition-opacity duration-200 " + (navExpanded ? "opacity-0 pointer-events-none" : "opacity-100")} 
         onClick={() => { toggleNav() } } 
       />
-      
       
       <Nav expanded={navExpanded} toggleNav={toggleNav} />
     </header>
